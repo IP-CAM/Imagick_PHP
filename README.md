@@ -8,10 +8,11 @@
  
  For Windows : <br>
  http://php.net/manual/en/imagick.installation.php
-<a href="../../Imagick/adaptiveblurimage.php">1. Adaptive Blur Image</a>
 <br>
-<a href="adaptiveResizeimage.php">2. Adaptive Resize Image</a>
+<a href="/Imagick/adaptiveblurimage.php">1. Adaptive Blur Image</a>
 <br>
-<a href="adaptiveSharpenImage.php">3. Adaptive Sharpen Image</a>
+<a href="/Imagick/adaptiveResizeimage.php">2. Adaptive Resize Image</a>
 <br>
-<a href="adaptiveThresholdImage.php">3. Adaptive Threshold Image</a>
+<a href="/Imagick/adaptiveSharpenImage.php">3. Adaptive Sharpen Image</a>
+<br>
+<a href="/Imagick/adaptiveThresholdImage.php">4. Adaptive Threshold Image</a>
