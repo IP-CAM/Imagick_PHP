@@ -9,5 +9,7 @@
 <a href="adaptiveResizeimage.php">2. Adaptive Resize Image</a>
 <br>
 <a href="adaptiveSharpenImage.php">3. Adaptive Sharpen Image</a>
+<br>
+<a href="adaptiveThresholdImage.php">3. Adaptive Threshold Image</a>
 </body>
 </html>
