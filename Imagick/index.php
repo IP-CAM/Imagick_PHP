@@ -20,5 +20,9 @@
 <br>
 <a href="annotateImage.php">8. Annotate Image</a>
 <br>
+<a href="appendImages1.php">9. Append Images - 1</a>
+<br>
+<a href="appendImages2.php">10. Append Images - 2</a>
+<br>
 </body>
 </html>
