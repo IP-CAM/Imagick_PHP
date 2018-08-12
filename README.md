@@ -29,3 +29,14 @@
 <br>
 <a href="/Imagick/appendImages2.php">10. Append Images - 2</a>
 <br>
+<br>
+<a href="/Imagick/autoLevelImage.php">11. AutoLevel Image</a>
+<br>
+<a href="/Imagick/blackThresholdImage.php">12. BlackThreshold Image</a>
+<br>
+<a href="/Imagick/blueShiftImage.php">13. BlueShift Image</a>
+<br>
+<a href="/Imagick/blurImage.php">14. Blur Image</a>
+<br>
+<a href="/Imagick/borderImage.php">15. Border Image</a>
+<br>

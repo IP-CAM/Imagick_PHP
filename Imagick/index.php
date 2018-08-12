@@ -24,5 +24,15 @@
 <br>
 <a href="appendImages2.php">10. Append Images - 2</a>
 <br>
+<a href="autoLevelImage.php">11. AutoLevel Image</a>
+<br>
+<a href="blackThresholdImage.php">12. BlackThreshold Image</a>
+<br>
+<a href="blueShiftImage.php">13. BlueShift Image</a>
+<br>
+<a href="blurImage.php">14. Blur Image</a>
+<br>
+<a href="borderImage.php">15. Border Image</a>
+<br>
 </body>
 </html>
