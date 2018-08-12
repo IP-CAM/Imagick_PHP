@@ -10,6 +10,10 @@
 <br>
 <a href="adaptiveSharpenImage.php">3. Adaptive Sharpen Image</a>
 <br>
-<a href="adaptiveThresholdImage.php">3. Adaptive Threshold Image</a>
+<a href="adaptiveThresholdImage.php">4. Adaptive Threshold Image</a>
+<br>
+<a href="addImage.php">5. Add Image</a>
+<br>
+<a href="addNoiseImage.php">6. Add Noise Image</a>
 </body>
 </html>
