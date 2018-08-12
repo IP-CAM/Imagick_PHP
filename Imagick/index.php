@@ -15,5 +15,7 @@
 <a href="addImage.php">5. Add Image</a>
 <br>
 <a href="addNoiseImage.php">6. Add Noise Image</a>
+<br>
+<a href="animateImages.php">7. Animate Image</a>
 </body>
 </html>
