@@ -34,5 +34,9 @@
 <br>
 <a href="borderImage.php">15. Border Image</a>
 <br>
+<a href="charcoalImage.php">16. Charcoal Image</a>
+<br>
+<a href="chopImage.php">17. Chop Image</a>
+<br>
 </body>
 </html>
