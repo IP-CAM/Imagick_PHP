@@ -39,3 +39,7 @@
 <br>
 <a href="/Imagick/borderImage.php">15. Border Image</a>
 <br>
+<a href="/Imagick/charcoalImage.php">16. Charcoal Image</a>
+<br>
+<a href="/Imagick/chopImage.php">17. Chop Image</a>
+<br>
