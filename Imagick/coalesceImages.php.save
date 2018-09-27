@@ -1,0 +1,18 @@
+<?php $path =  "img/";
+    $files = scandir($path); 
+    $canvas = new Imagick();
+
+    foreach ($imagePaths as $imagePath) {
+        $canvas->readImage(realpath($imagePath));
+        $canvas->setImageDelay(100);
+    }
+    $canvas->setImageFormat('gif');
+     
+    $finalImage = $canvas->coalesceImages();
+    $finalImage->setImageFormat('gif');
+    $finalImage->setImageIterations(0); //loop forever
+    $finalImage->mergeImageLayers(\Imagick::LAYERMETHOD_OPTIMIZEPLUS);
+ 
+    header("Content-Type: image/gif");
+    echo $finalImage->getImagesBlob();
+?>
