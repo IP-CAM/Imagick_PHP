@@ -5,9 +5,9 @@
 
     $image = new Imagick('img/geeksforgeeks.png');
 
-    /*transverseImage*/
+    /*transposeImage*/
 
-    $image->transverseImage();
+    $image->transposeImage();
     header("Content-Type: image/jpg");
     echo $image->getImageBlob();
 ?>
