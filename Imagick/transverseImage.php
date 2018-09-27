@@ -7,7 +7,7 @@
 
     /*rotateImage*/
 
-    $image->rotateimage('green', 25);
+    $image->transverseImage();
     header("Content-Type: image/jpg");
     echo $image->getImageBlob();
 ?>
