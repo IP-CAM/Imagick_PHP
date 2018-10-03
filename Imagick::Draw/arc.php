@@ -1,27 +1,31 @@
+
 <?php
-function arc($strokeColor, $fillColor, $backgroundColor, $startX, $startY, $endX, $endY, $startAngle, $endAngle) {
+require_once('vendor/autoload.php');
+function circle($strokeColor, $fillColor, $backgroundColor, $originX, $originY, $endX, $endY) {
 
     //Create a ImagickDraw object to draw into.
-    $draw = new \ImagickDraw();
-    $draw->setStrokeWidth(1);
+    $draw = new ImagickDraw();
+
+    $strokeColor = new ImagickPixel($strokeColor);
+    $fillColor = new ImagickPixel($fillColor);
+
+    $draw->setStrokeOpacity(1);
     $draw->setStrokeColor($strokeColor);
     $draw->setFillColor($fillColor);
+
     $draw->setStrokeWidth(2);
+    $draw->setFontSize(72);
 
-    $draw->arc($startX, $startY, $endX, $endY, $startAngle, $endAngle);
+    $draw->circle($originX, $originY, $endX, $endY);
 
-    //Create an image object which the draw commands can be rendered into
-    $image = new \Imagick();
-    $image->newImage(IMAGE_WIDTH, IMAGE_HEIGHT, $backgroundColor);
-    $image->setImageFormat("png");
+    $imagick = new Imagick();
+    $imagick->newImage(500, 500, $backgroundColor);
+    $imagick->setImageFormat("png");
+    $imagick->drawImage($draw);
 
-    //Render the draw commands in the ImagickDraw object 
-    //into the image.
-    $image->drawImage($draw);
-
-    //Send the image to the browser
     header("Content-Type: image/png");
-    echo $image->getImageBlob();
+    echo $imagick->getImageBlob();
 }
+circle('blue','yellow','red',60,60,200,200);
 
 ?>
