@@ -41,5 +41,43 @@
 <br>
 <a href="/Imagick/charcoalImage.php">16. Charcoal Image</a>
 <br>
-<a href="/Imagick/chopImage.php">17. Chop Image</a>
+<a href="/Imagick/colorMatrix.php">17. Color Matrix</a>
 <br>
+<a href="/Imagick/compositeImage.php">18. Composite Image</a>
+<br>
+<a href="/Imagick/flipImage.php">19. Flip Image</a>
+<br>
+<a href="/Imagick/getImageColors.php">20. Get Image Colors</a>
+<br>
+<a href="/Imagick/getImageColorspace.php">21. Get Image Colorspace</a>
+<br>
+<a href="/Imagick/getImageGamma.php">22. Get Image Gamma</a>
+<br>
+<a href="/Imagick/getImageHeight.php">23. Get Image Height</a>
+<br>
+<a href="/Imagick/getImageLength.php">24. Get Image Length</a>
+<br>
+<a href="/Imagick/getImageRegion.php">25. Get Image Region</a>
+<br>
+<a href="/Imagick/getImageWidth.php">26. Get Image Width</a>
+<br>
+<a href="/Imagick/magnifyImage.php">27. Magnify Image</a>
+<br>
+<a href="/Imagick/minifyImage.php">28. Minify Image</a>
+<br>
+<a href="/Imagick/rotateimage.php">29. Rotate Image</a>
+<br>
+<a href="/Imagick/shadeImage.php">30. Shade Image</a>
+<br>
+<a href="/Imagick/spliceImage.php">31. Splice Image</a>
+<br>
+<a href="/Imagick/transparentPaintImage.php">32. Transparent Paint Image</a>
+<br>
+<a href="/Imagick/transposeImage.php">33. Transpose Image</a>
+<br>
+<a href="/Imagick/transverseImage.php">34. Transverse Image</a>
+<br>
+<a href="/Imagick/vignetteImage.php">35. Vignette Image</a>
+<br>
+
+
