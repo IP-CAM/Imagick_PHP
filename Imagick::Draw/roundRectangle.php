@@ -1,5 +1,5 @@
 <?php
-/*require_once('vendor/autoload.php');*/
+require_once('vendor/autoload.php');
 
     //Create ImagickDraw object
 
@@ -8,7 +8,7 @@
     $draw->setFillColor('Red');
     $draw->setStrokeWidth(7);
 
-    $draw->arc(120, 30, 250, 180, 50, 190);
+    $draw->roundRectangle(40, 30, 250, 260, 40, 80);
 
     //Create an image object which the draw commands can be rendered into
 
