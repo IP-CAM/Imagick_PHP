@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38ea27498b4dc3c268a848c2e37f16c9",
+    "content-hash": "3ba38f6dfba46536db8daee8f8f80f6e",
     "packages": [
         {
             "name": "calcinai/php-imagick",
