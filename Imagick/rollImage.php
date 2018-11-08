@@ -1,7 +1,9 @@
 <?php 
+
+require_once('vendor/autoload.php');
 	/*Imagick Object*/
 
-	$imagick = new \Imagick('https://cdncontribute.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-19.png');
+	$imagick = new Imagick('https://cdncontribute.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-19.png');
 
 	/*rollImage*/
 
