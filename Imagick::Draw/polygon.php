@@ -5,11 +5,20 @@
     $draw = new \ImagickDraw();
 
     $draw->setStrokeOpacity(1);
-    $draw->setStrokeColor('Green');
-    $draw->setStrokeWidth(4);
+    $draw->setStrokeColor('Black');
 
-    $draw->setFillColor('Red');
+    //setStrokeOpacity() Function
+    $draw->setStrokeOpacity(0.8);
+    $draw->setStrokeWidth(10);
 
+    //setStrokeLineJoin() Function
+    $draw->setStrokeLineJoin(Imagick::LINEJOIN_ROUND);
+
+    //setFillColor() Function
+    $draw->setFillColor('lightgreen');
+    
+    //setStrokeMiterLimit() Function
+    $draw->setStrokeMiterLimit(40 * 12);
     $points = [
         ['x' => 50 * 6, 'y' => 10 * 5],
         ['x' => 20 * 7, 'y' => 30 * 5], 

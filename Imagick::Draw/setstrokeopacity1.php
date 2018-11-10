@@ -5,18 +5,18 @@ require_once('vendor/autoload.php');
 
     $draw = new \ImagickDraw();
     $draw->setStrokeColor('Green');
-
-    //setFillColor() Function
     $draw->setFillColor('Red');
 
-    $draw->setStrokeWidth(7);
+    //setStrokeOpacity() function
+    $draw->setStrokeOpacity(0.5);
 
+    $draw->setStrokeWidth(9);
     $draw->rectangle(40, 30, 200, 260);
 
     //Create an image object which the draw commands can be rendered into
 
     $image = new \Imagick();
-    $image->newImage(300, 300, 'White');
+    $image->newImage(240, 300, 'White');
     $image->setImageFormat("png");
 
     //Render the draw commands in the ImagickDraw object 
