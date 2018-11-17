@@ -1,31 +1,44 @@
 <?php
-require_once('vendor/autoload.php');
+//require_once('vendor/autoload.php');
 
-    //Create ImagickDraw object
+// Create an ImagickDraw object
 
-    $draw = new \ImagickDraw();
-    $draw->setStrokeColor('Green');
+$draw = new \ImagickDraw();
 
-    //setFillColor() Function
-    $draw->setFillColor('Red');
+// Set the Stroke Color 
+$draw->setStrokeColor('Green');
 
-    $draw->setStrokeWidth(7);
+// Set the Fill Color
+$draw->setFillColor('Red');
 
-    $draw->rectangle(40, 30, 200, 260);
+// Set teh stroke width
+$draw->setStrokeWidth(7);
 
-    //Create an image object which the draw commands can be rendered into
+// Draw the rectangle
+$draw->rectangle(40, 30, 200, 260);
 
-    $image = new \Imagick();
-    $image->newImage(300, 300, 'White');
-    $image->setImageFormat("png");
+// Set the scale
+$draw->scale(1.4, 1.4);
 
-    //Render the draw commands in the ImagickDraw object 
-    //into the image.
-    
-    $image->drawImage($draw);
+// Set the fill color
+$draw->setFillColor('lightgreen');
 
-    //Send the image to the browser
-    header("Content-Type: image/png");
-    echo $image->getImageBlob();
+// Draw the rectangle
+$draw->rectangle(40, 30, 200, 260);
 
+// Create an Imagick object 
+$image = new \Imagick();
+
+// Set the image dimensions
+$image->newImage(500, 400, 'White');
+
+// Set the image format
+$image->setImageFormat("png");
+
+// Draw the image
+$image->drawImage($draw);
+header("Content-Type: image/png");
+
+// Display teh iamge 
+echo $image->getImageBlob();
 ?>
