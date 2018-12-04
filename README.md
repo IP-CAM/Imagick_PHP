@@ -79,5 +79,4 @@
 <br>
 <a href="/Imagick/vignetteImage.php">35. Vignette Image</a>
 <br>
-
-
+<a href="https://www.geeksforgeeks.org/php-imagickdraw-setfillopacity-function/">36. setFillOpacity</a>
