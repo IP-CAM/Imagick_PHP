@@ -80,3 +80,5 @@
 <a href="/Imagick/vignetteImage.php">35. Vignette Image</a>
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagickdraw-setfillopacity-function/">36. setFillOpacity</a>
+<a href="https://www.geeksforgeeks.org/php-imagick-morphimages-function/">37. MorphImages</a>
+<a href="https://www.geeksforgeeks.org/php-imagick-readimageblob-function/">38. ReadImageBlob</a>
