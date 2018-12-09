@@ -86,3 +86,6 @@
 <a href="https://www.geeksforgeeks.org/php-imagick-readimageblob-function/">38. ReadImageBlob</a>
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagick-gammaimage-function/">39. GammaImage</a>
+<br>
+<a href="https://www.geeksforgeeks.org/php-imagick-haldclutimage-function/">40. Hald Clut Image</a>
+<br>
