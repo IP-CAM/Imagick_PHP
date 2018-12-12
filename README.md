@@ -89,3 +89,5 @@
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagick-haldclutimage-function/">40. Hald Clut Image</a>
 <br>
+<a href="https://www.geeksforgeeks.org/php-imagickdraw-settextalignment-function/">41. Set Text Alignment</a>
+<br>
