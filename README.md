@@ -91,3 +91,5 @@
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagickdraw-settextalignment-function/">41. Set Text Alignment</a>
 <br>
+<a href="https://www.geeksforgeeks.org/php-imagickdraw-polyline-function/">41. PolyLine</a>
+<br>
