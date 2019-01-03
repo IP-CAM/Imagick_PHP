@@ -93,5 +93,5 @@
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagickdraw-polyline-function/">42. PolyLine</a>
 <br>
-<a href="https://www.geeksforgeeks.org/php-imagickdraw-annotation-function/">43. PolyLine</a>
+<a href="https://www.geeksforgeeks.org/php-imagickdraw-annotation-function/">43. Annotation</a>
 <br>
