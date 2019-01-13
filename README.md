@@ -95,3 +95,5 @@
 <br>
 <a href="https://www.geeksforgeeks.org/php-imagickdraw-annotation-function/">43. Annotation</a>
 <br>
+<a href="https://www.geeksforgeeks.org/php-imagick-rotationalblurimage-function/">44.Rotational Blur Image</a>
+<br>
